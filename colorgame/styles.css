@@ -1,5 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  margin-top: 10px;
+}
+button {
+  padding: 5px, 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+}
+.header {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.boxes {
+  margin: auto;
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
 .box {
-    width: 100px;
-    height: 100px;
-    
+  width: 150px;
+  height: 150px;
+}
+.gameBody {
+  text-align: center;
 }
